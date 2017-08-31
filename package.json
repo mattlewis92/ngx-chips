@@ -70,12 +70,12 @@
     "universal-style-loader": "^0.16.3",
     "url-loader": "^0.5.7",
     "webpack": "^2.3.0",
-    "webpack-dev-server": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.4.2.tgz",
+    "webpack-dev-server": "^2.4.2",
     "webpack-merge": "^4.1.0",
     "zone.js": "0.8.10"
   },
   "dependencies": {
-    "@mattlewis92/ng2-material-dropdown": "^0.8.0"
+    "@mattlewis92/ng2-material-dropdown": "^0.8.1"
   },
   "peerDependencies": {
     "@angular/animations": "^4.2.0",
@@ -101,6 +101,7 @@
   "homepage": "https://github.com/Gbuomprisco/ngx-chips",
   "main": "./dist/ngx-chips.bundle.js",
   "module": "./dist/modules/index.js",
+  "typings": "./dist/modules/index.d.ts",
   "files": [
     "dist"
   ]
