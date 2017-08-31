@@ -64,6 +64,10 @@
   dependencies:
     tsickle "^0.21.0"
 
+"@mattlewis92/ng2-material-dropdown@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@mattlewis92/ng2-material-dropdown/-/ng2-material-dropdown-0.8.0.tgz#a72509ef75016a9b698617a3ef0e6ace404ea011"
+
 "@types/es6-shim@^0.31.32":
   version "0.31.33"
   resolved "https://registry.yarnpkg.com/@types/es6-shim/-/es6-shim-0.31.33.tgz#4792bdecc8c7f09a7e086968cfbb8058e459379d"
@@ -132,7 +136,7 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-angular2-template-loader@0.6.2:
+angular2-template-loader@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/angular2-template-loader/-/angular2-template-loader-0.6.2.tgz#c0d44e90fff0fac95e8b23f043acda7fd1c51d7c"
   dependencies:
@@ -2694,10 +2698,6 @@ ncname@1.0.x:
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
-
-ng2-material-dropdown@0.7.9-beta-3:
-  version "0.7.9-beta-3"
-  resolved "https://registry.yarnpkg.com/ng2-material-dropdown/-/ng2-material-dropdown-0.7.9-beta-3.tgz#f3ed894765e4f6d94f8366e5baecb68854463ca6"
 
 no-case@^2.2.0:
   version "2.3.1"
