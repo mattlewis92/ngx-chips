@@ -64,15 +64,9 @@
   dependencies:
     tsickle "^0.21.0"
 
-<<<<<<< HEAD
-"@mattlewis92/ng2-material-dropdown@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@mattlewis92/ng2-material-dropdown/-/ng2-material-dropdown-0.8.0.tgz#a72509ef75016a9b698617a3ef0e6ace404ea011"
-=======
 "@mattlewis92/ng2-material-dropdown@^0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@mattlewis92/ng2-material-dropdown/-/ng2-material-dropdown-0.8.1.tgz#00374c44c196914c2c534c26d83e1ea40de03bf5"
->>>>>>> fix-aot
 
 "@types/es6-shim@^0.31.32":
   version "0.31.33"

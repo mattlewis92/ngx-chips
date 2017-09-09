@@ -1,41 +1,43 @@
-tag,
-tag > div,
-tag > div:focus {
-    outline: 0;
-    overflow: hidden;
-    transition: opacity 1s;
-    z-index: 1;
-}
-
-tag {
-    max-width: 400px;
-}
-
-tag.blink {
-    -webkit-animation: blink 0.3s normal forwards ease-in-out;
-    animation: blink 0.3s normal forwards ease-in-out;
-}
-@keyframes blink {
-    0% {
-        opacity: 0.3;
+.ng2-tag-input {
+    tag,
+    tag > div,
+    tag > div:focus {
+        outline: 0;
+        overflow: hidden;
+        transition: opacity 1s;
+        z-index: 1;
     }
-}
 
-tag .disabled {
-    cursor: not-allowed;
-}
+    tag {
+        max-width: 400px;
+    }
 
-tag [contenteditable='true'] {
-    outline: 0;
-}
+    tag.blink {
+        -webkit-animation: blink 0.3s normal forwards ease-in-out;
+        animation: blink 0.3s normal forwards ease-in-out;
+    }
+    @keyframes blink {
+        0% {
+            opacity: 0.3;
+        }
+    }
 
-.tag-wrapper {
-    flex-direction: row;
-    display: flex;
-}
+    tag .disabled {
+        cursor: not-allowed;
+    }
 
-.tag__text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    tag [contenteditable='true'] {
+        outline: 0;
+    }
+
+    .tag-wrapper {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .tag__text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 }
