@@ -1,6 +1,6 @@
 {
   "name": "@mattlewis92/ngx-chips",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Tag Input component for Angular",
   "scripts": {
     "prepublish": "npm run clean && npm run build",
