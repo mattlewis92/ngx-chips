@@ -43,7 +43,7 @@ const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigat
         <div *ngSwitchCase="true" [attr.contenteditable]="editing">
           <!-- CUSTOM TEMPLATE -->
           <ng-template
-            [ngOutletContext]="{ item: model, index: index }"
+            [ngTemplateOutletContext]="{ item: model, index: index }"
             [ngTemplateOutlet]="template">
           </ng-template>
         </div>
