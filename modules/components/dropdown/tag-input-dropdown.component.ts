@@ -41,7 +41,7 @@ const defaults: Type<TagInputDropdownOptions> = forwardRef(() => OptionsProvider
 
             <ng-template *ngSwitchDefault
                          [ngTemplateOutlet]="templates.first"
-                         [ngOutletContext]="{ item: item, index: index, last: last }">
+                         [ngTemplateOutletContext]="{ item: item, index: index, last: last }">
             </ng-template>
           </ng2-menu-item>
         </ng2-dropdown-menu>
