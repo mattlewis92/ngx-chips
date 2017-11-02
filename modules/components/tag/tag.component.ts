@@ -44,7 +44,7 @@ const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigat
           <!-- CUSTOM TEMPLATE -->
           <ng-template
             [ngOutletContext]="{ item: model, index: index }"
-            [ngTemplateOutletContext]="template">
+            [ngTemplateOutlet]="template">
           </ng-template>
         </div>
 
